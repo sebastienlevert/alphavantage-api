@@ -1,0 +1,24 @@
+{
+  "name": "Alpha Vantage",
+  "description": "Alpha Vantage API",
+  "tags": [
+      "sebastienlevert",
+      "alpha",
+      "vantage",
+      "alphavantage",
+      "stock"
+  ],
+  "apis": [
+      {
+          "name": "Alpha Vantage API",
+          "description": "Alpha Vantage API.",
+          "baseUrl": "https://www.alphavantage.co/query",
+          "properties": [
+              {
+                  "type": "x-openapi",
+                  "url": "openapi.json"
+              }
+          ]
+      }
+  ]
+}
